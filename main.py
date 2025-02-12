@@ -6,7 +6,7 @@ import threading
 
 MAX_ITERATIONS = 200  # Set the maximum number of iterations
 
-class CPUBenchmarkApp:
+class CPUBenchmarkA:
     def __init__(self, root):
         self.root = root
         self.root.title("CPU Benchmark Tool")
